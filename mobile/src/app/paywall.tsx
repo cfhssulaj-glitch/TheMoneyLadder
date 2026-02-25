@@ -26,8 +26,8 @@ import {
   isRevenueCatEnabled,
 } from '@/lib/revenuecatClient';
 
-const TERMS_URL = 'https://themoneyladder.app/terms';
-const PRIVACY_URL = 'https://themoneyladder.app/privacy';
+const TERMS_URL = 'https://cfhssulaj-glitch.github.io/TheMoneyLadder/terms.html';
+const PRIVACY_URL = 'https://cfhssulaj-glitch.github.io/TheMoneyLadder/privacy.html';
 
 const formatPrice = (pkg: PurchasesPackage): string => {
   return pkg.product.priceString;
