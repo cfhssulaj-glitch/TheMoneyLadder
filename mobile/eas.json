@@ -1,5 +1,5 @@
 {
-  "cli": { "version": "16.17.4" },
+  "cli": { "version": ">= 16.17.4" },
   "build": {
     "development": { "developmentClient": true, "distribution": "internal", "ios": { "simulator": true } },
     "preview": { "distribution": "internal" },

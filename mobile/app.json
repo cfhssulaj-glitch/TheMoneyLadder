@@ -17,9 +17,19 @@
       "edgeToEdgeEnabled": true,
       "package": "com.vibecode.moneycompass.wlsroc"
     },
-    "plugins": ["expo-router"],
-    "experiments": { "typedRoutes": true },
-    "extra": { "router": {} },
-    "icon": "./icon.png"
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d5d29617-f0bf-4862-bd5d-15b551402182"
+      }
+    },
+    "icon": "./icon.png",
+    "owner": "jsula3"
   }
 }
