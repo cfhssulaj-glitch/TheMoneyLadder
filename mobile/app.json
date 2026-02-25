@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "The Money Ladder",
+    "slug": "the-money-ladder",
+    "scheme": "themoneyladder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.vibecode.themoneyladder",
+      "buildNumber": "30",
+      "infoPlist": {}
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "com.vibecode.moneycompass.wlsroc"
+    },
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": true },
+    "extra": { "router": {} },
+    "icon": "./icon.png"
+  }
+}

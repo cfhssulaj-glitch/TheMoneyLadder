@@ -1,0 +1,5 @@
+# Build artifacts
+*.ipa
+
+# OS files
+.DS_Store

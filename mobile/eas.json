@@ -1,0 +1,17 @@
+{
+  "cli": { "version": "16.17.4" },
+  "build": {
+    "development": { "developmentClient": true, "distribution": "internal", "ios": { "simulator": true } },
+    "preview": { "distribution": "internal" },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_REVENUECAT_APPLE_KEY": "appl_zdYvCWVjTnUZIROwwzjsPBpWWhX",
+        "EXPO_PUBLIC_REVENUECAT_TEST_KEY": "test_ZtDuLcshGUeYLHLIZXtxSkmnLEy",
+        "EXPO_PUBLIC_REVENUECAT_GOOGLE_KEY": "goog_ISrOYOcIdWaWHmomkgJuEBqdDgj"
+      },
+      "ios": { "distribution": "store" },
+      "android": { "distribution": "store" }
+    }
+  },
+  "submit": { "production": { "ios": { "ascAppId": "6756895565" } } }
+}
